@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>Mobile Tiles</title>
+    <link rel="stylesheet" type="text/css" href="css/vendors/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/custom/tiles.css">
+    <!-- [if lt IE9]>
+    <script type="text/javascript" src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script type="text/javascript" src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif] -->
+</head>
+
+<body>
+    <div id="tiles-page">
+        <div id="head">
+            <img id="logo" src="images/logo/logo.gif">
+            <a href="#"><img id="gear"></a>
+        </div>
+        <ul id="tiles-ul"></ul>
+    </div>
+    <div id="settings-page">
+        <h1 id="personalize">Personalize</h1>
+        <button id="done-button">Done</button>
+        <p style="padding: 15px">Tap the check marks to Add/Remove categories from your home screen. Tap and hold the 
+            <span id="stack-inline"></span>to reorder category styles
+        </p>
+        <p style="text-align: center">Want More Local News? Tap here</p>
+        <ul id="settings-ul"></ul>
+    </div>
+    
+    <script type="text/javascript" src="js/vendors/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/vendors/jquery-ui-1.11.4.min.js"></script>
+    <script type="text/javascript" src="js/custom/tiles_serviceCall.js"></script>
+    <script type="text/javascript" src="js/custom/tiles_helper.js"></script>
+</body>
+
+</html>

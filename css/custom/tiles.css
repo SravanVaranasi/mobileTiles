@@ -1,0 +1,122 @@
+body {
+    background-color: #A8A8A8;
+}
+
+#tiles-ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    position: relative;
+    padding-top: 0;
+}
+
+#tiles-page {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.list-class {
+    display: inline-block;
+}
+
+.img-tiles {
+    height: 150px;
+    width: 150px;
+}
+
+#logo {
+    height: 175px;
+    width: 175px;
+    padding-left: 12px;
+}
+
+
+
+#done-button {
+    float: right;
+    margin-right: 20px;
+    background-color: #0099cc;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: normal;
+    box-shadow: 5px;
+}
+
+#personalize {
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+}
+#span-inline {
+    background-image: url('images/icons/stack.png');
+}
+
+#settings-ul {
+
+    margin: 0;
+    padding: 0;
+    border-bottom: solid;
+}
+
+.settings-class {
+    display: inline-block;
+    text-align: left;
+    width: 600px;
+    padding-left: 30px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #00cc99;
+}
+
+.settings-caption {
+    margin: 5px;
+    display: inline-block;
+}
+
+.caption-tiles {
+    z-index: 1;
+    position: absolute;
+    text-indent: 20px;
+}
+
+.empty {
+    float: left;
+}
+
+#stack {
+    float: right;
+    vertical-align: top;
+}
+
+.img-tiles {
+    z-index: 0;
+}
+
+#settings-page {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #E8E8E8;
+    font-family: 'Slabo 27px', serif;
+    color: #505050;
+    font-weight: 500;
+}
+
+#gear {
+    left: 1200px;
+    position: absolute;
+    top: 30px;
+    width: 35px;
+    height: 35px;
+    background-image: url('../../images/icons/gear.png');
+    background-repeat: no-repeat;
+    background-size: 35px;
+}
+
+#gear:hover {
+    width: 35px;
+    height: 35px;
+    background-image: url("../../images/icons/gear_h.png");
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 35px;
+}
